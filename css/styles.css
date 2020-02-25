@@ -1,0 +1,196 @@
+body {
+    background: #F4F4F4;
+    color: #323B4C;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 70px;
+    color: #FF7B40;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.container {
+    padding-bottom: 363px;
+    background: url(/img/header.png) no-repeat left top;
+    background-size: cover;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 624px;
+    padding: 278px 0 20px 200px;
+}
+
+.price {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 497px;
+    background-color: #9CDFF9;
+    background: #9CDFF9;
+    border-radius: 0px 35px 35px 0px;
+}
+
+.price p {
+    margin: 0;
+    padding-top: 7px;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.price img {
+    padding: 7px 16px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    list-style: none;
+    padding: 125px;
+}
+
+.card li {
+    max-width: 230px;
+}
+
+.card img {
+    padding: 25px;
+}
+
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom: 460px;
+}
+
+.clock {
+    display: block;
+    position: absolute;
+    padding-left: 30%;
+}
+
+.main-text {
+    padding: 193px 0 20px 50%;
+}
+
+.price-main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+}
+
+.control {
+    background: url(/img/Run.png) no-repeat bottom center;
+    padding: 805px 100px 82px 200px;
+}
+
+.where {
+    position: relative;
+    background: url(/img/bycycle.png);
+    height: 1020px;
+}
+
+.where-info {
+    min-height: 1020px;
+    position:absolute;
+    right: 0;
+    width: 60%;
+    padding-bottom: 180px;
+    background: #FFF;
+    opacity: 0.8;
+}
+
+.where-info *{
+    padding: 20px 0 0 60px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding-bottom: 130px;
+        background: none;
+        background-color: #FCF2F1;
+    }
+
+    .about {
+        padding: 150px 20px 20px 20px;
+    }
+
+    .about h1 {
+        font-weight: 800;
+        font-size: 48px;
+        color: #FF7B40;
+    }
+
+    .about p {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .price {
+        width: 300px;
+    }
+
+    .card {
+        padding: 80px;
+    }
+
+    .clock {
+        visibility: hidden;
+    }
+
+    .main-text {
+        padding: 20px 50px;
+    }
+
+    .price-main {
+        width: 90%;
+    }
+    
+    .main{
+        padding-bottom: 50px;
+    }
+    
+    .clock{
+        height: 0;
+    }
+
+    .control {
+        padding: 805px 20px 20px 20px;
+    }
+    
+    .where-info{
+        padding: 0;
+        width: auto;
+    }
+    
+    .where-info *{
+        padding: 20px 20px 0 20px;
+    }
+}
+
+
